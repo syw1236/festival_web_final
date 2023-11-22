@@ -1,3 +1,4 @@
+
 .searchListTitle {
   font-size: 30px;
   text-align: center;
@@ -19,6 +20,7 @@
   position: relative;
   overflow: hidden;
 }
+
   
   .cardContainer img {
     width: 200px;
@@ -133,10 +135,3 @@
     opacity: 1;
   }
 
-
-  
-  
-
-
-  
-  

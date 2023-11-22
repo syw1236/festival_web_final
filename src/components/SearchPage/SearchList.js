@@ -102,7 +102,6 @@ const SearchList = () => {
 };
 
 // 검색결과를 구성하는 카드 컴포넌트
-// Card component
 function Card({ id, name, location, detail_location, likes, liked, poster, handleLike }) {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -133,6 +132,5 @@ function Card({ id, name, location, detail_location, likes, liked, poster, handl
     </div>
   );
 }
-
 
 export default SearchList;
