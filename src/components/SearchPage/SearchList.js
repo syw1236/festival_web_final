@@ -60,7 +60,8 @@ const SearchList = () => {
   return (
     <>
       {/*상단의 네비게이션바*/}
-      <NavigationBar backgroundColor={"white"} hoverColor={"yellowgreen"} />
+      <NavigationBar backgroundColor={"rgb(206, 220, 255)"} hoverColor={"rgb(145, 176, 255)"} />
+      <div className="centerContainer">
       <div className="searchListContainer">
         {/*검색바*/}
         <h1 className="searchListTitle"> Festival List</h1>
@@ -96,6 +97,7 @@ const SearchList = () => {
             <Card key={item.id} handleLike={handleLike} {...item} />
           ))}
         </div>
+      </div>
       </div>
     </>
   );
