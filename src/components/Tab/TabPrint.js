@@ -5,11 +5,12 @@ import Tab from './Tab';
 import Tab_Winter from './Tab_Winter';
 import NavigationBar from "../CommonComp/navigationBar";
 
+//Tab.js와 Tab_Winter.js 컴포넌트를 출력하는 전체 컴포넌트 TabPrint.js
 const TabPrint = () => {
 
   return (
     <div>
-        s<NavigationBar backgroundColor={"white"} hoverColor={"yellowgreen"} />
+       <NavigationBar backgroundColor={"rgb(206, 220, 255)"} hoverColor={"rgb(145, 176, 255)"} />
        <Tab festivalsData={festivalsData} />
        <Tab_Winter festivalsData={festivalsData} />
     </div>

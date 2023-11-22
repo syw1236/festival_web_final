@@ -152,7 +152,7 @@ const FestivalDetail = () => {
             {/*상단 배너의 글박스*/}
             <div className="bannerTitleBox">
               {/*메인페이지 돌아가기 링크*/}
-              <Link to="/">
+              <Link to="/" style={{ textDecoration: 'none' }}>
                 <span className="bold-text-main">
                   <IoHome style={{ fontSize: "20px" }} />
                   <span style={{ marginLeft: "8px" }}>축제 메인으로</span>
