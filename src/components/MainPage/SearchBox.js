@@ -73,7 +73,8 @@ function SearchBox() {
             <li
               key={result.id}
               onClick={() => handleAutocompleteClick(result.id, result.name)}
-              className={"autocomplete-item"}>
+              className={"autocomplete-item"}
+            >
               <FaSearch className="search-icon2" />
               {result.name}
             </li>
