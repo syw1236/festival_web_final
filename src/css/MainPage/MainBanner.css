@@ -1,0 +1,26 @@
+.first-slide {
+  box-sizing: border-box;
+  padding: 0rem;
+  margin: 0rem;
+}
+.first-slide .swiper-pagination {
+  position: absolute;
+  left: 50%;
+  top: 105%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-slide .swiper-pagination-bullet {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: rgb(170, 170, 170);
+  border: 0rem;
+  opacity: 1;
+}
+
+.first-slide .swiper-pagination-bullet-active {
+  background-color: rgb(25, 85, 247);
+}
