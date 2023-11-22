@@ -95,13 +95,18 @@ function CountryDetail() {
 
   // activeIndex가 변경될 때마다 해당하는 지역데이터를 festivalArray상태에 넣는다.
   useEffect(() => {
-    const filterlocationArray = data.filter((item) => item.location === Countrys[activeIndex].region);
+    const filterlocationArray = data.filter(
+      (item) => item.location === Countrys[activeIndex].region
+    );
     setFestivalArray(filterlocationArray);
   }, [activeIndex]);
 
   return (
     <>
-      <NavigationBar backgroundColor={"rgb(206, 220, 255)"} hoverColor={"rgb(145, 176, 255)"} />
+      <NavigationBar
+        backgroundColor={"rgb(206, 220, 255)"}
+        hoverColor={"rgb(145, 176, 255)"}
+      />
       <div className="centerContainer">
         <div className="countryContainer">
           {/*상단 지역 리스트*/}
@@ -130,21 +135,37 @@ function CountryDetail() {
                   alt={activeIndex == null ? "" : Countrys[activeIndex].region}
                   className="countryImage"
                 />
-                <div className="clickCountryName">{activeIndex !== null && Countrys[activeIndex].region}</div>
-                <img src="/image/icon/arrow.png" width={30} height={30} alt="arrow.png" />
+                <div className="clickCountryName">
+                  {activeIndex !== null && Countrys[activeIndex].region}
+                </div>
+                <img
+                  src="/image/icon/arrow.png"
+                  width={30}
+                  height={30}
+                  alt="arrow.png"
+                />
               </div>
               {/* 클릭한 지역의 축제 D-day 표시*/}
-              <RepFestivalList data={festivalArray} country={Countrys[activeIndex].region} />
+              <RepFestivalList
+                data={festivalArray}
+                country={Countrys[activeIndex].region}
+              />
             </div>
           </div>
         </div>
         {/* 클릭한 지역의 인기 축제 나열*/}
         <div className="currentContainer">
-          <PopularFestival festivals={festivalArray} country={Countrys[activeIndex].region} />
+          <PopularFestival
+            festivals={festivalArray}
+            country={Countrys[activeIndex].region}
+          />
         </div>
         {/* 달력 및 해당 날짜에 맞는 포스터 나타내는 부분 */}
         <div>
-          <Calendar festivals={festivalArray} country={Countrys[activeIndex].region} />
+          <Calendar
+            festivals={festivalArray}
+            country={Countrys[activeIndex].region}
+          />
         </div>
       </div>
     </>
