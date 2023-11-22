@@ -113,12 +113,14 @@ function Card({ id, name, location, detail_location, likes, liked, poster, handl
     >
       {/*카드의 포스터 부분*/}
       <Link to={`/festival_detail/${id}`}>
-        <img src={poster} alt={name} />
-        {isHovered && (
-          <div className="overlay">
-            <p>{detail_location}</p>
-          </div>
-        )}
+        <div className="poster-container">
+          <img src={poster} alt={name} />
+          {isHovered && (
+            <div className="overlay">
+              <p>{detail_location}</p>
+            </div>
+          )}
+        </div>
       </Link>
       {/*카드 정보 부분*/}
       <h2>{name}</h2>

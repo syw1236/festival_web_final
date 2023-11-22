@@ -39,6 +39,9 @@ const NavigationBar = ({ backgroundColor, hoverColor }) => {
       <LinkButton to={"/searchList"} hovercolor={hoverColor}>
         검색
       </LinkButton>
+      <LinkButton to={"/tabPrint"} hovercolor={hoverColor}>
+        테마
+      </LinkButton>
     </Wrapper>
   );
 };
