@@ -14,7 +14,11 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to bottom, rgb(206, 220, 255) 26rem, white 0%);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(218, 230, 240) 25rem,
+    white 0%
+  );
 `;
 
 const MainBannerArea = styled.div`
@@ -110,7 +114,10 @@ function Main() {
   return (
     <>
       {/*네비게이션바*/}
-      <NavigationBar backgroundColor={"rgb(206, 220, 255)"} hoverColor={"rgb(145, 176, 255)"} />
+      <NavigationBar
+        backgroundColor={"rgb(218, 230, 240)"}
+        hoverColor={"rgb(158, 170, 185)"}
+      />
       <Wrapper>
         {/*메인 배너 부분*/}
         <MainBannerArea>
