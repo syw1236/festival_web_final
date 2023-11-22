@@ -5,7 +5,11 @@
   width: 100%;
   padding: 0rem;
   margin: 0rem;
-  background-image: linear-gradient(to bottom, rgb(206, 220, 255) 20rem, white 0%);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 247, 220) 20rem,
+    white 0%
+  );
 }
 
 .bannerArea {
@@ -166,7 +170,7 @@
   display: inline-block;
   width: 30rem;
   height: 40rem;
-  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2); /* 그림자 효과 설정 */
+  box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2); /* 그림자 효과 설정 */
 }
 
 .close-button1 {
