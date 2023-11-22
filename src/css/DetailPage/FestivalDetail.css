@@ -5,7 +5,11 @@
   width: 100%;
   padding: 0rem;
   margin: 0rem;
-  background-image: linear-gradient(to bottom, rgb(206, 220, 255) 20rem, white 0%);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 247, 220) 20rem,
+    white 0%
+  );
 }
 
 .bannerArea {
