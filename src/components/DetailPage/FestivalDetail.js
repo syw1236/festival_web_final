@@ -146,7 +146,7 @@ const FestivalDetail = () => {
               {/*메인페이지 돌아가기 링크*/}
               <Link to="/">
                 <span className="bold-text-main">
-                  <IoHome style={{ fontSize: "26px" }} />
+                  <IoHome style={{ fontSize: "20px" }} />
                   <span style={{ marginLeft: "8px" }}>축제 메인으로</span>
                 </span>
               </Link>
@@ -163,7 +163,7 @@ const FestivalDetail = () => {
               </div>
               <div className="banner_date">{festival.date.join(" ~ ")}</div>
               <div onClick={handleLike} className="like-button">
-                <FaHeart style={{ color: liked ? "red" : "grey" }} />
+                <FaHeart style={{ color: liked ? "red" : "grey", marginRight: '13px'}} />
                 {likes}
               </div>
             </div>
@@ -224,10 +224,10 @@ const FestivalDetail = () => {
         <div className="mapArea">
           <div className="mapBox">
             <hr className="line" />
-            <h2>길찾기</h2>
+            <h2 className="mapTitle">길찾기</h2>
             <div className="tip">마커를 누르면 상세보기가 가능합니다.</div>
             <div className="mapContainer">
-              <div id="map" style={{ width: "80%", height: "40rem", zIndex: 0 }}></div>
+              <div id="map" style={{ width: "100%", height: "30rem", zIndex: 0 }}></div>
             </div>
           </div>
         </div>
@@ -283,7 +283,7 @@ const imageModalStyles = {
   },
   content: {
     width: "60rem",
-    height: "50%",
+    height: "670px",
     zIndex: "150",
     position: "absolute",
     top: "50%",
@@ -306,8 +306,8 @@ const mapModalStyles = {
     left: "0",
   },
   content: {
-    width: "95vw",
-    height: "80vh",
+    width: "90vw",
+    height: "85vh",
     zIndex: "150",
     position: "absolute",
     top: "50%",
