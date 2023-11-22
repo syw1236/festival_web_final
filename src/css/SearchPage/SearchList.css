@@ -1,7 +1,21 @@
 
 .searchListTitle {
+  margin-top: 100px;
   font-size: 30px;
   text-align: center;
+}
+
+.centerContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(206, 220, 255) 18.5rem,
+    white 0%
+  );
 }
 .search-box {
   width: 300px;
