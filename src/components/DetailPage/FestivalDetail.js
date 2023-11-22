@@ -95,9 +95,7 @@ const FestivalDetail = () => {
           setIsModalOpen(true);
         });
       } else {
-        console.log(
-          "Geocode was not successful for the following reason: " + status
-        );
+        console.log("Geocode was not successful for the following reason: " + status);
       }
     });
 
@@ -138,16 +136,10 @@ const FestivalDetail = () => {
 
   return (
     <>
-      <NavigationBar
-        backgroundColor={"rgb(255, 247, 220)"}
-        hoverColor={"rgb(220, 204, 143)"}
-      />
+      <NavigationBar backgroundColor={"rgb(206, 220, 255)"} hoverColor={"rgb(145, 176, 255)"} />
       <div className="yellow-section">
         {/*상단 배너 파트 */}
-        <div
-          className="bannerArea"
-          style={{ display: "flex", marginBottom: "30px" }}
-        >
+        <div className="bannerArea" style={{ display: "flex", marginBottom: "30px" }}>
           <div className="bannerContent">
             {/*상단 배너의 글박스*/}
             <div className="bannerTitleBox">
@@ -164,8 +156,7 @@ const FestivalDetail = () => {
               <div
                 className="festival-status"
                 style={{
-                  backgroundColor:
-                    festivalStatus === "축제 진행 중" ? "orangered" : "grey",
+                  backgroundColor: festivalStatus === "축제 진행 중" ? "orangered" : "grey",
                 }}
               >
                 {festivalStatus}
@@ -177,11 +168,7 @@ const FestivalDetail = () => {
               </div>
             </div>
             {/*배너에 포함된 포스터*/}
-            <img
-              className="poster-image"
-              src={festival.poster}
-              alt={festival.name}
-            />
+            <img className="poster-image" src={festival.poster} alt={festival.name} />
           </div>
         </div>
         {/*축제 관련 세부정보 출력박스*/}
@@ -210,21 +197,15 @@ const FestivalDetail = () => {
             </div>
             {/*축제 관련 정보 파트*/}
             <div className="content-container">
-              <div className="imgDescription">
-                이미지를 클릭하면 크게 볼 수 있습니다.
-              </div>
-              <p className="festival-description">
-                {festival.detail_description}
-              </p>
+              <div className="imgDescription">이미지를 클릭하면 크게 볼 수 있습니다.</div>
+              <p className="festival-description">{festival.detail_description}</p>
               <hr className="line" />
               <div className="information">
                 <p>
-                  <FaRegCalendarCheck className="icon-style" />{" "}
-                  {festival.date.join(" ~ ")}
+                  <FaRegCalendarCheck className="icon-style" /> {festival.date.join(" ~ ")}
                 </p>
                 <p>
-                  <IoLocationSharp className="icon-style" />{" "}
-                  {festival.detail_location}
+                  <IoLocationSharp className="icon-style" /> {festival.detail_location}
                 </p>
                 <p>
                   <IoCall className="icon-style" /> {festival.tel}
@@ -246,10 +227,7 @@ const FestivalDetail = () => {
             <h2>길찾기</h2>
             <div className="tip">마커를 누르면 상세보기가 가능합니다.</div>
             <div className="mapContainer">
-              <div
-                id="map"
-                style={{ width: "80%", height: "40rem", zIndex: 0 }}
-              ></div>
+              <div id="map" style={{ width: "80%", height: "40rem", zIndex: 0 }}></div>
             </div>
           </div>
         </div>
@@ -267,11 +245,7 @@ const FestivalDetail = () => {
               initialSlide={currentImage}
               onClickXButton={closeImageModal}
             />
-            <IoMdCloseCircle
-              color={"rgb(28, 67, 167)"}
-              onClick={closeImageModal}
-              className="close-button1"
-            />
+            <IoMdCloseCircle color={"rgb(28, 67, 167)"} onClick={closeImageModal} className="close-button1" />
           </div>
         </Modal>
         {/*지도 모달창*/}
@@ -287,9 +261,7 @@ const FestivalDetail = () => {
               <iframe
                 title="image"
                 className="modalMap"
-                src={`https://map.kakao.com/link/map/${
-                  festival.name
-                },${coords.getLat()},${coords.getLng()}`}
+                src={`https://map.kakao.com/link/map/${festival.name},${coords.getLat()},${coords.getLng()}`}
               ></iframe>
               <IoMdCloseCircle onClick={closeModal} className="close-button2" />
             </>
