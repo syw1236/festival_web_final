@@ -11,11 +11,14 @@
   margin-bottom: 20px;
 }
   
-  .cardContainer {
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
-  }
+.cardContainer {
+  position: relative;
+}
+
+.poster-container {
+  position: relative;
+  overflow: hidden;
+}
   
   .cardContainer img {
     width: 200px;
