@@ -1,4 +1,4 @@
-.tab-menu {
+/* .tab-menu {
     color: black;
     font-weight: bold;
     display: flex;
@@ -20,7 +20,7 @@
     border-radius: 0px 0px 0px 0px;
     border: 10px solid white;
     cursor: pointer;
-  }
+  } */
   
   .centerContainerTab{
     box-sizing: border-box;
@@ -30,7 +30,7 @@
     padding: 0rem;
     background-image: linear-gradient(
       to bottom,
-      rgb(206, 220, 255) 28rem,
+      rgb(206, 220, 255) 26rem,
       white 0%
     );
   }
