@@ -1,0 +1,139 @@
+.searchListTitle {
+  font-size: 30px;
+  text-align: center;
+}
+.search-box {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid rgb(206, 220, 255);
+  border-radius: 20px; 
+  margin-bottom: 20px;
+}
+  
+  .cardContainer {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .cardContainer img {
+    width: 200px;
+    height: 200px;
+  }
+
+.cardContainer img:hover {
+  border: 5px solid yellowgreen;
+}
+
+  .cardContainer h2 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .cardContainer p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .cardContainer button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+
+.searchListContainer {
+    text-align: center;
+  }
+  
+
+.searchResultsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 16px; 
+  justify-content: center;
+}
+
+.select-container {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+  }
+  
+
+  #searchArea {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #000; 
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  #searchArea option[value=""] {
+    color: #777; 
+  }
+
+  /*포스터 클릭 시 나오는 디자인*/
+  .cardContainer {
+    position: relative;
+  }
+  
+  .posterContainer {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .overlay p {
+    color: white;
+  }
+  
+  .cardContainer.hovered .posterContainer {
+    transform: scale(0.9); 
+  }
+  
+  .cardContainer.hovered .overlay {
+    opacity: 1;
+  }
+
+
+  
+  
+
+
+  
+  

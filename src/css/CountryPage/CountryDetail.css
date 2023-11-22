@@ -1,0 +1,99 @@
+li {
+  list-style-type: none;
+}
+.centerContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0rem;
+  background-image: linear-gradient(to bottom, rgb(206, 220, 255) 20rem, white 0%);
+}
+
+.countryContainer {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 58rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.countryul {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 0rem;
+  margin: 0rem;
+}
+.countryli {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 4.5rem;
+  height: 2.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2.8rem;
+  margin: 0rem 0.1rem;
+}
+
+.countryli:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+.countryli.active {
+  background-color: black;
+  color: white;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.localFestivalArea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.localFestivalContainer {
+  box-sizing: border-box;
+  width: 80rem;
+}
+
+.clickCountry {
+  box-sizing: border-box;
+  padding-left: 1rem;
+}
+
+.countryImage {
+  box-sizing: border-box;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.3%;
+}
+
+.clickCountryName {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 0.1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.currentContainer {
+  box-sizing: border-box;
+  background-color: rgb(244, 245, 247);
+  margin-top: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
