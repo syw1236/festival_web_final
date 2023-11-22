@@ -1,4 +1,4 @@
-import FestivalSimple from "./FistivalSimple";
+import FestivalSimple from "./FestivalSimple";
 import "../../css/CountryPage/PopularFestival.css";
 const PopularFestival = ({ festivals, country }) => {
   //좋아요가 많은 상위 6개의 축제 데이터를 선별
