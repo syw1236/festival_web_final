@@ -5,7 +5,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "../../css/CountryPage/CalendarSwiper.css";
-// import "./CalendarSwiper.css";
 
 import { Pagination, Navigation } from "swiper/modules";
 

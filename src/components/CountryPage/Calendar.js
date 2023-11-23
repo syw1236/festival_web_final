@@ -1,4 +1,3 @@
-//(함수로 축소한 파일 useState버전) Calendar.js 파일
 import React, { useState, useEffect } from "react";
 import CalendarSwiper from "./CalendarSwiper";
 import "../../css/CountryPage/Calendar.css";
