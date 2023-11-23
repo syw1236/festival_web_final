@@ -12,4 +12,7 @@ code {
     monospace;
 }
 
-
+@font-face {
+  font-family: "KoPubWorld Dotum_Pro Medium";
+  src: url("./fonts/KoPubWorld Dotum_Pro Medium.otf");
+}
