@@ -19,7 +19,8 @@ function RepFestivalList({ data = [] }) {
 
   // 카드로 출력할 축제데이터의 인덱스 구한다.
   let randomIndexes;
-  if (filterDateArray.length < 3) randomIndexes = filterDateArray.map((el, ix) => ix);
+  if (filterDateArray.length < 3)
+    randomIndexes = filterDateArray.map((el, ix) => ix);
   else randomIndexes = getRandomIndexes(filterDateArray.length, 3);
 
   return (
