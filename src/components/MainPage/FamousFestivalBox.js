@@ -30,7 +30,7 @@ const ItemWrapper = styled.div`
 function FamousFestivalBox({ likedFestivals }) {
   return (
     <Wrapper>
-      <Header>{"현재 인기높은 국내축제"}</Header>
+      <Header>{"현재 인기있는 국내축제"}</Header>
       {/*좋아요 수가 많은 6개의 축제를 카드형식으로 출력*/}
       <ListWrapper>
         {likedFestivals.map((el, ix) => {
