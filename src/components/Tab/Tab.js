@@ -11,7 +11,7 @@ const Tab = ({ festivalsData }) => {
   const menuArr = [
     {
       name: "# 야경 축제",
-      content: "#달빛 #별빛",
+      content: "#달빛 #별빛 #강빛",
       image: [
         "/image/seoul/SeoulStarDetail2.jpg",
         "/image/daegu/DaeguDarkDetail1.png",
@@ -24,7 +24,7 @@ const Tab = ({ festivalsData }) => {
     },
     {
       name: "# 먹거리 축제",
-      content: "#쌀 #김장",
+      content: "#쌀 #김장 #곶감",
       image: [
         "/image/chungnam/15_image_1.jpg",
         "/image/chungnam/15_image_1.jpg",
