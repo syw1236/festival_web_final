@@ -97,7 +97,9 @@ function MainBaanerContent({ festivalData }) {
         <LocalLabel>{festivalData.location}</LocalLabel>
         <SubTitle>{festivalData.description}</SubTitle>
         <Title>{festivalData.name}</Title>
-        <ShowDetailButt to={`/festival_detail/${festivalData.id}`}>{"자세히 보기"}</ShowDetailButt>
+        <ShowDetailButt to={`/festival_detail/${festivalData.id}`}>
+          {"자세히 보기"}
+        </ShowDetailButt>
       </BannerTitleWrapper>
       {/*슬라이드 아이템 내부 이미지 부분 */}
       <ImgWrapper>
