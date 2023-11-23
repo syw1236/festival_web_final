@@ -35,12 +35,12 @@
   display: block;
   width: 43rem;
   height: 100%;
-  padding: 17rem 0rem;
+  padding: 16.3rem 0rem;
 }
 
 .bold-text-main {
   padding: 0.5rem 0rem;
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: black;
 }
@@ -50,13 +50,13 @@
   max-height: 8rem;
   padding: 1rem 0rem;
   display: block;
-  font-size: 21px;
+  font-size: 27px;
   font-weight: 700;
   color: #00000a;
   word-break: keep-all;
   overflow-wrap: break-word;
   overflow: hidden;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .bold-title {
@@ -64,10 +64,11 @@
   display: block;
   height: 6rem;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 40px;
   word-break: keep-all;
   overflow-wrap: break-word;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .festival-status {
@@ -81,6 +82,8 @@
   align-items: center;
   font-size: 1.2rem;
   border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .banner_date {
@@ -88,6 +91,8 @@
   padding: 1rem 0rem;
   font-weight: bold;
   font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-family: "KoPubWorld Dotum_Pro Medium";
 }
 
 .like-button {
@@ -115,6 +120,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-top: 30px;
 }
 
 .festival-image {
@@ -136,13 +142,17 @@
 .festival-description {
   word-break: keep-all;
   overflow-wrap: break-word;
+  font-size: 1.5rem;
   font-family: "KoPubWorld Dotum_Pro Medium";
+  margin-top: 38px;
   margin-bottom: 80px;
 }
 
 .information {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-family: "KoPubWorld Dotum_Pro Medium";
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .mapArea {
@@ -191,7 +201,8 @@
 
 .tip {
   font-family: "KoPubWorld Dotum_Pro Medium";
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  margin-bottom: 25px;
 }
 
 .mapTitle {
@@ -212,7 +223,7 @@
 }
 
 .imgDescription {
-  font-size: 1.15rem;
+  font-size: 1.18rem;
   color: #8f8e8e;
   font-family: "KoPubWorld Dotum_Pro Medium";
 }
