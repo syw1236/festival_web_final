@@ -46,7 +46,11 @@ const CalendarSwiper = ({ festivals }) => {
               return (
                 <div key={i}>
                   <SwiperSlide key={i} className="imgContainer">
-                    <img className="image" src={festival.poster} alt={`festival-${i}`} />
+                    <img
+                      className="image"
+                      src={festival.poster}
+                      alt={`festival-${i}`}
+                    />
                   </SwiperSlide>
                 </div>
               );
@@ -55,7 +59,11 @@ const CalendarSwiper = ({ festivals }) => {
                 <div key={i}>
                   <SwiperSlide key={i} className="imgContainer">
                     <Link to={`/festival_detail/${festival.id}`}>
-                      <img src={festival.poster} alt={`festival-${i}`} className="image" />
+                      <img
+                        src={festival.poster}
+                        alt={`festival-${i}`}
+                        className="image"
+                      />
                     </Link>
                   </SwiperSlide>
                 </div>
