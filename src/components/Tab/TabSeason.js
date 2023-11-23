@@ -1,9 +1,9 @@
-// Tab_Winter.js
+// TabSeason.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../../css/Tab/Tab_Winter.css';
+import '../../css/Tab/TabSeason.css';
 
-const Tab_Winter = ({ festivalsData }) => {
+const TabSeason = ({ festivalsData }) => {
   const [currentTab, clickTab] = useState(0);
 
   //메뉴 탭 구현 (탭 이름과 각 탭에 들어갈 내용)
@@ -81,4 +81,4 @@ const Tab_Winter = ({ festivalsData }) => {
   );
 };
 
-export default Tab_Winter;
+export default TabSeason;
