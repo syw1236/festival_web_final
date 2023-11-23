@@ -24,7 +24,11 @@ const Calendar = ({ festivals, country }) => {
       clickedDate.setHours(0, 0, 0, 0);
 
       // 주어진 날짜가 축제의 시작일과 종료일 사이에 있는지 비교
-      return clickedDate && festivalStartDate <= clickedDate && clickedDate <= festivalEndDate;
+      return (
+        clickedDate &&
+        festivalStartDate <= clickedDate &&
+        clickedDate <= festivalEndDate
+      );
     });
 
     // 해당 날짜에 진행하는 축제가 3개 미만이면 배열의 length가 3개가 될 때까지 noimage.png를 가진 객체를 채운다.
@@ -49,7 +53,11 @@ const Calendar = ({ festivals, country }) => {
   // 상태변수 세팅을 위한 useEffect
   useEffect(() => {
     let now = new Date(); // 현재 날짜와 시간
-    let currentDate = new Date(now.getFullYear(), now.getMonth(), now.getDate()); // 현재 날짜
+    let currentDate = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate()
+    ); // 현재 날짜
     let currentWeek = makeWeekArr(currentDate); //  2주의 Date들을 담은 배열
 
     // 2주 기준의 Date배열에서 오늘날을 나타내는 배열을 얻는다.
@@ -66,7 +74,10 @@ const Calendar = ({ festivals, country }) => {
     setActiveIndex(currentDayIndex);
 
     // 현재 날짜기준 진행중인 축제 데이터를 구하고 상태변수로 등록
-    const filteredFestival = getFestivalsByDate(currentWeek[currentDayIndex][1], festivals);
+    const filteredFestival = getFestivalsByDate(
+      currentWeek[currentDayIndex][1],
+      festivals
+    );
     setFilteredFestivalArray(filteredFestival);
   }, [festivals]);
 
@@ -148,22 +159,31 @@ const Calendar = ({ festivals, country }) => {
             {week.map(([index, day]) => (
               <ul
                 key={day}
-                className={`calendarul ${activeIndex === index ? "active" : ""} ${
-                  isNextBtnClicked ? "nextBtnClicked" : ""
-                }`}
+                className={`calendarul ${
+                  activeIndex === index ? "active" : ""
+                } ${isNextBtnClicked ? "nextBtnClicked" : ""}`}
                 onClick={() => handleCountryClick(index)}
               >
                 <li
-                  className={`dayofweekli ${day.getDay() === 6 ? "saturday" : ""} ${
-                    day.getDay() === 0 ? "sunday" : ""
-                  }`}
+                  className={`dayofweekli ${
+                    day.getDay() === 6 ? "saturday" : ""
+                  } ${day.getDay() === 0 ? "sunday" : ""}`}
                   style={{
-                    color: day.getDay() === 6 ? "blue" : day.getDay() === 0 ? "red" : "inherit",
+                    color:
+                      day.getDay() === 6
+                        ? "blue"
+                        : day.getDay() === 0
+                        ? "red"
+                        : "inherit",
                   }}
                 >
-                  {new Intl.DateTimeFormat("ko-KR", { weekday: "long" }).format(day).slice(0, 1)}
+                  {new Intl.DateTimeFormat("ko-KR", { weekday: "long" })
+                    .format(day)
+                    .slice(0, 1)}
                 </li>
-                <li className={"dayli"}>{day.getDate().toString().padStart(2, "0")}</li>
+                <li className={"dayli"}>
+                  {day.getDate().toString().padStart(2, "0")}
+                </li>
               </ul>
             ))}
           </div>
