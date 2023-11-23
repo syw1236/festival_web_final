@@ -10,6 +10,9 @@
 
 `npm start` 명령을 통해 프로젝트를 'http://localhost:3000'의 주소로 실행합니다.
 
+    npm install
+    npm start
+
 ## 프로젝트 구성
 
 ### 메인페이지
