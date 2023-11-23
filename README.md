@@ -8,8 +8,7 @@
 
 ### `2. 카카오맵 API 발급`
 
-- <https://apis.map.kakao.com/>에서 카카오맵 API 키를 발급받은 후,
-  public폴더>index.html파일의 script 태그 src= "[here]" here 부분에 KAKAO_MAP_API_KEY를 발급받은 키로 대치
+- <https://apis.map.kakao.com/>에서 카카오맵 API 키를 발급받은 후, public폴더>index.html파일의 script 태그 src= "[here]" here 부분에 공백없이 KAKAO_MAP_API_KEY를 발급받은 키로 대치
 - 카카오맵 API 콘솔의 플랫폼 항목에서 Web 플랫폼 등록 버튼을 클릭하여 http://localhost:3000을 입력하여 저장
 
 ### `3. npm start`
