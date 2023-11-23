@@ -154,7 +154,7 @@ const FestivalDetail = () => {
               {/*메인페이지 돌아가기 링크*/}
               <Link to="/" style={{ textDecoration: "none" }}>
                 <span className="bold-text-main">
-                  <IoHome style={{ fontSize: "20px" }} />
+                  <IoHome style={{ fontSize: "27px" }} />
                   <span style={{ marginLeft: "8px" }}>축제 메인으로</span>
                 </span>
               </Link>
@@ -245,7 +245,7 @@ const FestivalDetail = () => {
         <div className="mapArea">
           <div className="mapBox">
             <hr className="line" />
-            <h2 className="mapTitle">길찾기</h2>
+            <h1 className="mapTitle">길찾기</h1>
             <div className="tip">마커를 누르면 상세보기가 가능합니다.</div>
             <div className="mapContainer">
               <div
@@ -313,7 +313,7 @@ const imageModalStyles = {
   },
   content: {
     width: "60rem",
-    height: "670px",
+    height: "690px",
     zIndex: "150",
     position: "absolute",
     top: "50%",
