@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import festivalsData from "../../data/festivalsData";
 import { FaSearch } from "react-icons/fa";
-import "../../css/MainPage/SearchBox.css"; // Import the CSS file
+import "../../css/MainPage/SearchBox.css";
 import { useNavigate } from "react-router-dom";
 
 function SearchBox() {
