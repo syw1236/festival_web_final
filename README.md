@@ -2,9 +2,6 @@
 
 ## 실행순서
 
-    npm install
-    npm start
-
 ### `npm install`
 
 'npm install' 명령을 통해 package.json을 참조하여 필요한 라이브러리를 node_modules디렉토리에 설치합니다.
@@ -13,6 +10,9 @@
 
 `npm start` 명령을 통해 프로젝트를 'http://localhost:3000'의 주소로 실행합니다.
 
+    npm install
+    npm start
+    
 ## 프로젝트 구성
 
 ### 메인페이지
