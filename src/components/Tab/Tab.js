@@ -50,7 +50,7 @@ const Tab = ({ festivalsData }) => {
     },
     {
       name: "# 겨울 축제",
-      content: "#눈 #얼음분수",
+      content: "#눈꽃 #얼음분수",
       image: [
         "/image/gangwon/22_image_1.jpg",
         "/image/chungnam/13_image_3.jpg",
@@ -66,7 +66,7 @@ const Tab = ({ festivalsData }) => {
   //각 탭마다 정해진 키워드를 이용
   const filteredFestivals = festivalsData.filter((festival) => {
     const tab0Keywords = ["달빛", "별빛", "강빛"];
-    const tab1Keywords = ["해맞이"];
+    const tab1Keywords = ["해맞이","해돋이"];
     const tab2Keywords = ["곶감", "쌀", "김장"];
     const tab3Keywords = ["철쭉"];
     const tab4Keywords = ["머드"];
