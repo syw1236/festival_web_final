@@ -12,7 +12,13 @@ const ImageSlider = ({ images, initialSlide }) => {
     originalweight: "200px",
   }));
 
-  return <ImageGallery additionalClass="slider" items={imageItems} startIndex={initialSlide} />;
+  return (
+    <ImageGallery
+      additionalClass="slider"
+      items={imageItems}
+      startIndex={initialSlide}
+    />
+  );
 };
 
 export default ImageSlider;
