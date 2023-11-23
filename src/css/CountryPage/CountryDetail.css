@@ -21,6 +21,7 @@ li {
   height: 3rem;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .countryul {
@@ -62,6 +63,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5px;
 }
 
 .localFestivalContainer {
