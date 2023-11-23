@@ -13,14 +13,14 @@ const LinkButton = styled(Link)`
   box-sizing: border-box;
   height: 2.5rem;
   margin: 0rem 2.5rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   display:flex;
   flex-direction column;
   justify-content: center;
   align-items : center;
   text-decoration: none;
   color:black;
-  font-weight: 800;
+  font-weight: 550;
   &:hover {
     border-bottom: 0.5rem ${(props) => props.hovercolor} solid;
   }
