@@ -7,8 +7,7 @@ const festivalsData = [
     image1: "/image/gyeonggi/1_image_1.png",
     image2: "/image/gyeonggi/1_image_2.jpg",
     image3: "/image/gyeonggi/1_image_3.jpg",
-    description:
-    "정조대왕의 효심과 부국강병의 꿈을 바탕으로 축성된 수원화성",
+    description: "정조대왕의 효심과 부국강병의 꿈을 바탕으로 축성된 수원화성",
     detail_description:
       "수원화성의 이야기들을 보고, 듣고, 체험할 수 있으며, 화성성곽과 용연 등 역사적 정취가 깃든 장소에서 다양한 문화예술 콘텐츠를 함께 즐길 수 있습니다. ‘수원동락(수원시민이 만들고, 모두가 즐기는 축제)’을 주제로 시민들이 직접 참여하는 시민중심의 축제로 개최됩니다.",
     date: ["2023-10-07", "2023-11-31"],
@@ -48,7 +47,7 @@ const festivalsData = [
     image3: "/image/gyeonggi/3_image_3.jpg",
 
     description:
-    "우리나라 주식이며 전국 최고의 미질을 자랑하는 이천의 대표적인 특산물인 쌀",
+      "우리나라 주식이며 전국 최고의 미질을 자랑하는 이천의 대표적인 특산물인 쌀",
     detail_description:
       "오랜 세월 동안 고품질의 쌀이 생산되어 온 이천지역, 친환경 농법을 실천하는 데다 밥맛이 좋은 품종인 추정벼를 재배합니다. 이 축제는 이천지역 예술인의 무대로 꾸며지는 풍년마당과 민속경연대회가 열리는 동네마당, 농업인과 시민을 위한 문화마당, 인형극 공연이 펼쳐지는 동화마당 등 총 7개의 마당이 펼쳐집니다.",
     likes: 9483,
@@ -68,8 +67,7 @@ const festivalsData = [
     image1: "/image/gyeonggi/4_image_1.jpg",
     image2: "/image/gyeonggi/4_image_2.jpg",
     image3: "/image/gyeonggi/4_image_3.jpg",
-    description:
-    "마리나 시설이 완비된 전곡항 일대를 환서해안 관광시대 ",
+    description: "마리나 시설이 완비된 전곡항 일대를 환서해안 관광시대 ",
     detail_description:
       "국내 최대의 마리나 산업 관련 인프라를 기반으로 한다는 점과 화성 뱃놀이축제는 당항성의 역사성과 화성시의 문화적 특성을 축제의 핵심 콘텐츠로 개발하는데 집중하고 있습니다. ",
     likes: 4784,
@@ -89,8 +87,7 @@ const festivalsData = [
     image1: "/image/gyeonggi/5_image_1.jpg",
     image2: "/image/gyeonggi/5_image_2.jpg",
     image3: "/image/gyeonggi/5_image_3.jpg",
-    description:
-    "시민의 손으로 직접 조성한 철쭉동산",
+    description: "시민의 손으로 직접 조성한 철쭉동산",
     detail_description:
       "4월~5월 초, 만개한 22만여 그루의 철쭉꽃을 감상할 수 있으며 인접한 초막골생태공원로 축제장소를 확장하여 방문객과 축제참여자에게 쉼, 행복, 힐링을 선사하는 지하철 접근이 가능한 도심 축제입니다.",
     likes: 23499,
@@ -164,7 +161,8 @@ const festivalsData = [
     image1: "/image/chungbuk/9_image_1.jpg",
     image2: "/image/chungbuk/9_image_2.jpg",
     image3: "/image/chungbuk/9_image_3.jpg",
-    description: "한국 현대시의 정지용 시인을 기억하고, 시인의 문학 정신을 계승",
+    description:
+      "한국 현대시의 정지용 시인을 기억하고, 시인의 문학 정신을 계승",
     detail_description:
       "한국 현대시의 선구자이며 우리의 언어를 시적 형상화한 시인이자 우리 민족의 정서를 가장 잘 표현한 시인 정지용을 추모하고, 그의 시문학 정신을 이어가며 더욱 발전시키자는 뜻으로 '시인 정지용의 고향 옥천의 문화 축제'입니다.",
     likes: 958,
@@ -182,7 +180,8 @@ const festivalsData = [
     image1: "/image/chungbuk/10_image_1.jpg",
     image2: "/image/chungbuk/10_image_2.jpg",
     image3: "/image/chungbuk/10_image_3.jpg",
-    description: "매년 8월 말이 되면 포도의 고장인 영동에서 열리는 대표적인 축제",
+    description:
+      "매년 8월 말이 되면 포도의 고장인 영동에서 열리는 대표적인 축제",
     detail_description:
       "한국 현대시의 선구자이며 우리의 언어를 시적 형상화한 시인이자 우리 민족의 정서를 가장 잘 표현한 시인 정지용을 추모하고, 그의 시문학 정신을 이어가며 더욱 발전시키자는 뜻으로 '시인 정지용의 고향 옥천의 문화 축제'입니다.",
     likes: 958,
@@ -200,7 +199,8 @@ const festivalsData = [
     image1: "/image/chungbuk/11_image_1.jpg",
     image2: "/image/chungbuk/11_image_2.jpg",
     image3: "/image/chungbuk/11_image_3.jpg",
-    description: "천혜의 자연환경을 자랑하는 유기농의 심장 괴산, 괴산 고추 축제",
+    description:
+      "천혜의 자연환경을 자랑하는 유기농의 심장 괴산, 괴산 고추 축제",
     detail_description:
       "전국 최고의 맛을 자랑하는 괴산청결고추를 비롯한 농특산물과 다양한 체험거리, 볼거리, 먹거리를 한곳에서 즐길 수 있는 괴산고추축제는 문화체육관광부 선정 문화관광유망축제이자 충청북도 우수축제입니다. 다가오는 여름 친환경 유기농업군 괴산에서 고추와 문화가 결합된 괴산고추축제에 가족, 연인, 친구와 방문하여 재미와 감동이 함께하는 시간을 가지시기 바랍니다.",
     likes: 958,
@@ -254,7 +254,8 @@ const festivalsData = [
     image1: "/image/chungnam/14_image_1.jpg",
     image2: "/image/chungnam/14_image_2.jpg",
     image3: "/image/chungnam/14_image_3.jpg",
-    description: "매년 7월경 충청남도에 있는 보령시의 대천해수욕장 주변에서 진행하는 진흙 축제.",
+    description:
+      "매년 7월경 충청남도에 있는 보령시의 대천해수욕장 주변에서 진행하는 진흙 축제.",
     detail_description:
       "보령 머드 축제는 대천해수욕장을 기반으로 개최되는 지역 축제로, 한국의 가장 대표적인 여름 축제입니다.",
     likes: 98762,
@@ -346,8 +347,7 @@ const festivalsData = [
     image1: "/image/gangwon/19_image_1.jpg",
     image2: "/image/gangwon/19_image_2.jpg",
     image3: "/image/gangwon/19_image_3.jpg",
-    description:
-    "음력 정월대보름에 기줄다리기",
+    description: "음력 정월대보름에 기줄다리기",
     detail_description:
       "신주빚기, 부럼깨기, 귀밝이술 마시기, 오곡밥 먹기, 달집태우기, 망월놀이, 살대세우기 등 다채로운 고유 풍습과 각종 체험프로그램으로 추억에 남을 볼거리를 제공하고 있습니다. 매년 음력 정월대보름을 전후하여 개최되는 삼척정월대보름제에 많이 참석하셔서 보름달처럼 원만하고 풍성한 한 해를 시작하시길 간절히 바랍니다.",
     date: ["2024-02-03", "2024-02-05"],
@@ -552,7 +552,8 @@ const festivalsData = [
     image1: "/image/seoul/SeoulWinterDetail1.jpg",
     image2: "/image/seoul/SeoulWinterDetail2.jpg",
     image3: "/image/seoul/SeoulWinterDetail3.jpg",
-    description: "크리스마스의 기적을 통한 마법 같은 즐거움, 롯데월드 어드벤처 겨울시즌 축제",
+    description:
+      "크리스마스의 기적을 통한 마법 같은 즐거움, 롯데월드 어드벤처 겨울시즌 축제",
     detail_description:
       "올 겨울, 한편의 동화 같은 스토리가 롯데월드 어드벤처에 펼쳐진다. 롯데월드 대표 캐릭터 ‘로티’와 ‘로리’, 그리고 친구들은 아이들의 꿈을 담은 선물로 롯데월드 곳곳을 꾸미며 크리스마스 선물을 만들어 낸다. ‘기프트 팩토리’ 컨셉의 포토존을 비롯해 각종 토이와 손님들의 소원으로 꾸며지는 환상의 크리스마스 트리, 매직 캐슬 앞에 펼쳐지는 눈 내리는 마법의 숲길, 그리고 마법으로 만들어진 매직아일랜드의 빛의 계단 등 한편의 동화 같은 크리스마스를 롯데월드에서 만날 수 있다.",
     likes: 1249,
@@ -710,7 +711,8 @@ const festivalsData = [
     likes: 777,
     date: ["2023-11-14", "2023-11-14"],
     location: "인천",
-    detail_location: "인천광역시 연수구 센트럴로 123 (송도동) 송도컨벤시아 그랜드홀A, B 및 로비",
+    detail_location:
+      "인천광역시 연수구 센트럴로 123 (송도동) 송도컨벤시아 그랜드홀A, B 및 로비",
     tel: "070-4895-0879",
     time: "10:00 ~ 18:00",
     pay: "무료",
@@ -729,7 +731,8 @@ const festivalsData = [
     likes: 1023,
     date: ["2023-11-07", "2023-12-20"],
     location: "인천",
-    detail_location: "인천광역시 연수구 컨벤시아대로 160 (송도동) 송도 센트럴파크",
+    detail_location:
+      "인천광역시 연수구 컨벤시아대로 160 (송도동) 송도 센트럴파크",
     tel: "032-899-7429",
     time: "18:00 ~ 22:00",
     pay: "무료",
@@ -856,7 +859,8 @@ const festivalsData = [
     image1: "/image/gwangju/GwangjuFestivalDetail1.jpg",
     image2: "/image/gwangju/GwangjuFestivalDetail2.jpg",
     image3: "/image/gwangju/GwangjuFestivalDetail3.jpg",
-    description: "꿈같은 일탈을 선사하는 광주 대표 거리예술축제 2023 광주프린지페스티벌",
+    description:
+      "꿈같은 일탈을 선사하는 광주 대표 거리예술축제 2023 광주프린지페스티벌",
     detail_description:
       "광주 대표 거리예술축제인 2023 광주프린지페스티벌(이하 ‘프린지’)을 오는 20일부터 22일까지 3일간 5·18민주광장과 금남로, 예술의 거리 일대에서 개최한다.\n올해로 8회를 맞은 프린지는 아시아 최대규모 거리예술축제로 변모해 ‘거리예술, 꿈같은 일탈’을 주제로 시민들을 만난다. 코로나로 인해 소규모 분산 개최했던 예년과 달리 올해는 5·18민주광장을 중심으로 금남로와 예술의 거리까지 확장해 일상 공간인 거리 풍경을 바꾸는 다양한 거리예술 공연들과 대지미술 작품, 동시대적 메시지를 담은 퍼포먼스 등 거리예술축제에서만 만날 수 있는 볼거리로 가득 채울 예정이다.",
     likes: 135,
@@ -875,7 +879,8 @@ const festivalsData = [
     image1: "/image/gwangju/GwangjuMemoryDetail1.jpg",
     image2: "/image/gwangju/GwangjuMemoryDetail2.jpg",
     image3: "/image/gwangju/GwangjuMemoryDetail3.jpg",
-    description: "다양한 도심길거리 예술을 통해 모든 기억을 모으고,지우고픈 기억을 지우는 특별한 놀이축제",
+    description:
+      "다양한 도심길거리 예술을 통해 모든 기억을 모으고,지우고픈 기억을 지우는 특별한 놀이축제",
     detail_description:
       "매년 10월, 광주를 대표하는 번화가 충장로의 특징을 살린 추억의 충장축제가 열린다. 축제의 가장 큰 볼거리인 ‘충장 월드퍼레이드’에는 광주 13개 동에서 서로 다른 테마로 퍼레이드에 참석하며 경연 퍼레이드, 영화 콘셉트 퍼레이드, 아시아 국가 퍼레이드 등 다양한 퍼레이드가 쉴 새 없이 진행된다. 또한, 70~00년대 충장로의 모습을 재현한 추억의 테마거리도 조성된다. 옛날 다방에서 차를 마시거나 흑백사진관에서 멋진 흑백사진을 찍는 등 MZ세대를 비롯한 다양한 세대가 즐거운 레트로 체험을 할 수 있다. 특히 축제 본연의 특성인 놀이성, 일탈을 통한 해방감, 공동체로서의 대동감을 느낄 수 있다.",
     likes: 60,
@@ -1029,7 +1034,8 @@ const festivalsData = [
     image1: "/image/daejeon/daejeon_running1.jpg",
     image2: "/image/daejeon/daejeon_running2.jpg",
     image3: "/image/daejeon/daejeon_running3.jpg",
-    description: "선양 맨몸러닝페스타(구.대전맨몸마라톤)와 함께 새해를 힘차게 시작해 볼까요?",
+    description:
+      "선양 맨몸러닝페스타(구.대전맨몸마라톤)와 함께 새해를 힘차게 시작해 볼까요?",
     detail_description:
       "2024년은 더욱 즐거운 새해가 될 수 있도록 대전맨몸마라톤이 ‘선양 맨몸러닝페스타’로 새단장하여 개최됩니다. 그간 지친 몸과 마음에 묵은 때를 벗어던지고, 새해를 건강하게 시작하길 바라는 마음으로 다양한 이벤트와 특별상을 준비해 즐거움을 한 몫 더했습니다. 색다른 새해맞이로 건강한 활력을 불어넣으며 소중한 분들과 함께 특별한 추억을 만들어 가시길 바랍니다.",
     likes: 223,
@@ -1049,7 +1055,8 @@ const festivalsData = [
     image2: "/image/daejeon/daejeon_jazz2.jpg",
     image3: "/image/daejeon/daejeon_jazz3.jpg",
     description: "대전에서 열리는 다양한 장르의 재즈공연!",
-    detail_description: "2023년 9월 8일과 9일에 엑스포과학공원 물빛광장에서 진행되는 대전 재즈 페스티벌입니다.",
+    detail_description:
+      "2023년 9월 8일과 9일에 엑스포과학공원 물빛광장에서 진행되는 대전 재즈 페스티벌입니다.",
     likes: 173,
     date: ["2023-11-25", "2023-12-10"], // 임의로 수정
     location: "대전",
@@ -1066,7 +1073,8 @@ const festivalsData = [
     image1: "/image/daejeon/daejeon_guitar1.jpg",
     image2: "/image/daejeon/daejeon_guitar2.jpg",
     image3: "/image/daejeon/daejeon_guitar3.jpg",
-    description: "국내외 유명 기타리스트들의 공연과 강연회, 전시 및 시연회, 버스킹!",
+    description:
+      "국내외 유명 기타리스트들의 공연과 강연회, 전시 및 시연회, 버스킹!",
     detail_description:
       "대전문화재단이 후원하고 대전기타리스트협회가 주최하는 '2023 대전국제기타페스티벌'이 이달 17-19일 대전예술가의집 누리홀 등에서 열린다.",
     likes: 433,
@@ -1104,7 +1112,8 @@ const festivalsData = [
     image1: "/image/daejeon/daejeon_bread1.jpg",
     image2: "/image/daejeon/daejeon_bread2.jpg",
     image3: "/image/daejeon/daejeon_bread3.jpg",
-    description: "전국 빵·빵·곡·곡, 맛있는 빵을 한 곳에서 즐길 수 있는 꿀잼 축제!",
+    description:
+      "전국 빵·빵·곡·곡, 맛있는 빵을 한 곳에서 즐길 수 있는 꿀잼 축제!",
     detail_description:
       "전국 빵·빵·곡·곡, 맛있는 빵을 한 곳에서 즐길 수 있는 꿀잼 축제로 빵zip컬렉션, 빵 만들기 체험, k-pop 공연, 레크리에이션 및 이벤트가 행사 기간 동안 열린다. 지역의 70개 유명 빵집들이 한 자리에 볼 수 있고, 7개 분야 13개 프로그램이 구성되어 있다.",
     likes: 788,
@@ -1200,7 +1209,8 @@ const festivalsData = [
     image1: "/image/ulsan/ulsan_night1.jpg",
     image2: "/image/ulsan/ulsan_night2.jpg",
     image3: "/image/ulsan/ulsan_night3.jpg",
-    description: "10월의 가을밤, 달빛이 은은히 물들어가는 울산 중구의 야행 축제!",
+    description:
+      "10월의 가을밤, 달빛이 은은히 물들어가는 울산 중구의 야행 축제!",
     detail_description:
       "12가지 프로그램 가운데 우선 '빛의 술사' 프로그램으로는 가을밤 은은한 조명 아래 지역 문화유산과 원도심 골목의 아름다움을 느껴보는 야간 경관조명 점등 행사가  문화의거리와 새즈믄해거리 일대에서 열린다",
     likes: 351,
@@ -1219,7 +1229,8 @@ const festivalsData = [
     image1: "/image/ulsan/ulsan_river1.jpg",
     image2: "/image/ulsan/ulsan_river2.jpg",
     image3: "/image/ulsan/ulsan_river3.jpg",
-    description: "10월의 가을밤, 달빛이 은은히 물들어가는 울산 중구의 야행 축제!",
+    description:
+      "10월의 가을밤, 달빛이 은은히 물들어가는 울산 중구의 야행 축제!",
     detail_description:
       "12가지 프로그램 가운데 우선 '빛의 술사' 프로그램으로는 가을밤 은은한 조명 아래 지역 문화유산과 원도심 골목의 아름다움을 느껴보는 야간 경관조명 점등 행사가  문화의거리와 새즈믄해거리 일대에서 열린다",
     likes: 221,
@@ -1431,7 +1442,8 @@ const festivalsData = [
     likes: 234,
     date: ["2023-05-27", "2023-05-27"],
     location: "제주",
-    detail_location: "제주특별자치도 제주시 애월읍 봉성리 4554-12 (새별오름주차장7)",
+    detail_location:
+      "제주특별자치도 제주시 애월읍 봉성리 4554-12 (새별오름주차장7)",
     tel: "064-710-2665",
     time: "11:00 ~ 18:00",
     pay: "무료",
@@ -1522,7 +1534,8 @@ const festivalsData = [
     likes: 45,
     date: ["2023-11-03", "2023-12-14"],
     location: "전북",
-    detail_location: "전라북도 고창군 아산면 선운사로 242-86 고창군 선운산 도립공원 잔디마당 일원",
+    detail_location:
+      "전라북도 고창군 아산면 선운사로 242-86 고창군 선운산 도립공원 잔디마당 일원",
     tel: "070-4175-6848",
     time: "10:00 ~ 18:00",
     pay: "무료",
@@ -1552,13 +1565,15 @@ const festivalsData = [
     image1: "/image/jeonbuk/sunchang/1.jpg",
     image2: "/image/jeonbuk/sunchang/2.jpg",
     image3: "/image/jeonbuk/sunchang/3.jpg",
-    description: "우리 식문화의 중심인 “장”을 소재로 전통과 현대가 어우러지는 세대공감형 축제",
+    description:
+      "우리 식문화의 중심인 “장”을 소재로 전통과 현대가 어우러지는 세대공감형 축제",
     detail_description:
       "전라북도 순창은 한국의 전통소스인 ‘장’으로 유명한 고장이다. 순창에서 매년 가을 한국의 전통장류를 소재로 한 순창장류축제가 열린다. 전통장류를 소재로 한 체험 프로그램과 문화공연, 전시 및 판매 등 약 60여개의 다양한 프로그램들이 진행되며, 순창고추장으로 만든 매콤하고 감칠맛 넘치는 음식들을 맛볼 수 있다. ‘순창고추장 임금님 진상행렬’ 퍼포먼스와 모두 모여 순창고추장을 만드는 체험, 순창 고추장으로 만든 떡볶이를 나눠 먹는 행사 등 순창장류축제만의 특별하고 재미있는 프로그램들도 선보인다. 어른들을 위한 건강힐링체험, 아이들을 위한 다양한 만들기 체험 프로그램이 준비되어 있다.",
     likes: 86,
     date: ["2023-10-13", "2023-10-15"],
     location: "전북",
-    detail_location: "전라북도 순창군 순창읍 장류로 55 순창전통고추장민속마을 및 순창발효테마파크 일원",
+    detail_location:
+      "전라북도 순창군 순창읍 장류로 55 순창전통고추장민속마을 및 순창발효테마파크 일원",
     tel: "063-650-1624",
     time: "11:00 ~ 16:00",
     pay: "무료",
@@ -1570,7 +1585,8 @@ const festivalsData = [
     image1: "/image/jeonbuk/jeonju/1.jpg",
     image2: "/image/jeonbuk/jeonju/2.jpg",
     image3: "/image/jeonbuk/jeonju/3.jpg",
-    description: "다채롭고 조화롭게 어우러져 새로움을 창조하는 전주 비빔밥 축제, '전주味로' '비빔is'",
+    description:
+      "다채롭고 조화롭게 어우러져 새로움을 창조하는 전주 비빔밥 축제, '전주味로' '비빔is'",
     detail_description:
       "2023 전주 비빔밥축제는 다양한 확장성을 가진 한국의 맛과 멋을 대표하는 대표 음식 관광 문화 축제로 유네스코 음식창의문화도시, 글로벌 문화관광 도시 전주시의 브랜딩化를 추구하는 축제이다. \n 전주의 대표 미식축제이며 시민 화합의 장을 마련하고 전주의 다양한 음식문화 콘텐츠와 관광자원을 활용, 맛과 멋이 있는 대한민국 ‘대표 음식관광축제’로 전주 맛의 길을 열어 간다.",
     likes: 833,
@@ -1650,7 +1666,8 @@ const festivalsData = [
     likes: 846,
     date: ["2023-11-20", "2023-12-16"],
     location: "전남",
-    detail_location: "전라남도 여수시 선어시장길 6  이순신광장 및 장군도 앞 해상",
+    detail_location:
+      "전라남도 여수시 선어시장길 6  이순신광장 및 장군도 앞 해상",
     tel: "061-664-4772",
     time: "18:00 ~ 21:30",
     pay: "무료",
@@ -1680,7 +1697,8 @@ const festivalsData = [
     image1: "/image/jeonnam/gangjin/1.jpg",
     image2: "/image/jeonnam/gangjin/2.jpg",
     image3: "/image/jeonnam/gangjin/3.jpg",
-    description: "황금빛 갈대 물결속으로, 강진만 생태공원에서 가을 정취와 낭만을 느껴보세요.",
+    description:
+      "황금빛 갈대 물결속으로, 강진만 생태공원에서 가을 정취와 낭만을 느껴보세요.",
     detail_description:
       "강진만생태공원은 탐진강과 강진만이 만나는 둑이 없는 하구로 다양한 생태자원이 풍부하게 서식하고 있으며 1,131종 생태다양성의 보고로 매년 2,500여 마리의 큰고니가 방문하는 집단 서식지이다.",
     likes: 932,
@@ -1706,7 +1724,8 @@ const festivalsData = [
     likes: 283,
     date: ["2023-11-10", "2023-11-12"],
     location: "경북",
-    detail_location: "경상북도 포항시 남구 구룡포읍 호미로 206-6 구룡포시장 주차장 인근",
+    detail_location:
+      "경상북도 포항시 남구 구룡포읍 호미로 206-6 구룡포시장 주차장 인근",
     tel: "070-8623-7509",
     time: "14:30 ~ 20:00",
     pay: "무료",
@@ -1778,7 +1797,8 @@ const festivalsData = [
     likes: 390,
     date: ["2023-12-13", "2023-12-15"],
     location: "경북",
-    detail_location: "경상북도 경주시 교동 274 (경주 봉황대 및 월정교경상북도 영천시 최무선로 364 (문외동)",
+    detail_location:
+      "경상북도 경주시 교동 274 (경주 봉황대 및 월정교경상북도 영천시 최무선로 364 (문외동)",
     tel: "054-331-6867",
     time: "11:00 ~ 21:00",
     pay: "무료",
@@ -1790,7 +1810,8 @@ const festivalsData = [
     image1: "/image/gyeongbuk/insam/1.jpg",
     image2: "/image/gyeongbuk/insam/2.jpg",
     image3: "/image/gyeongbuk/insam/3.jpg",
-    description: "천년건강 풍기인삼을 주제로 다양한 볼거리 먹거리 즐길거리가 준비된 최고의 웰빙 축제",
+    description:
+      "천년건강 풍기인삼을 주제로 다양한 볼거리 먹거리 즐길거리가 준비된 최고의 웰빙 축제",
     detail_description:
       "인삼의 영양분이 가장 많은 시기인 10월 한국에서 손꼽히는 인삼 산지 중 하나인 영주에서 풍기인삼축제가 열린다. 건강을 상징하는 인삼을 테마로 하는 축제답게 건강관련 전시와 체험 위주로 진행된다.영양만점 풍기인삼으로 만든 인삼요리를 맛볼수 있으며 인삼깎기, 인삼병주 만들기, 풍기인삼 캐기 등 풍기인삼과 관련된 재미있는 체험도 할수있다.",
     likes: 390,
@@ -1882,7 +1903,8 @@ const festivalsData = [
     image1: "/image/gyeongnam/riders/1.jpg",
     image2: "/image/gyeongnam/riders/2.jpg",
     image3: "/image/gyeongnam/riders/3.jpg",
-    description: "라이더의 성지(합천 카페모토라드)에서 즐기는 라이더들의 축제 커뮤니티공간",
+    description:
+      "라이더의 성지(합천 카페모토라드)에서 즐기는 라이더들의 축제 커뮤니티공간",
     detail_description:
       "합천댐과 황매산 인근에 위치한 합천 씨파크 내 카페모토라드 합천은 라이더들이 즐겨찾는 명소이다.2023 코리아 라이더스 페스티벌을 통해 라이더들간의 커뮤니티 형성을 목표로 하며 라이더들이 필요로 하는 의류, 액세사리 판매부터 레저, 오토바이크 시승을 진행한다.",
     likes: 268,
