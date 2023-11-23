@@ -1,4 +1,3 @@
-// import "./RepFestival.css";
 import "../../css/CountryPage/RepFestival.css";
 import { Link } from "react-router-dom";
 function RepFestival({ data }) {
