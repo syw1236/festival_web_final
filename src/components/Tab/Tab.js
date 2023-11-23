@@ -1,4 +1,3 @@
-// Tab.js
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../../css/Tab/Tab.css";
@@ -66,7 +65,7 @@ const Tab = ({ festivalsData }) => {
   //각 탭마다 정해진 키워드를 이용
   const filteredFestivals = festivalsData.filter((festival) => {
     const tab0Keywords = ["달빛", "별빛", "강빛"];
-    const tab1Keywords = ["해맞이","해돋이"];
+    const tab1Keywords = ["해맞이", "해돋이"];
     const tab2Keywords = ["곶감", "쌀", "김장"];
     const tab3Keywords = ["철쭉"];
     const tab4Keywords = ["머드"];
